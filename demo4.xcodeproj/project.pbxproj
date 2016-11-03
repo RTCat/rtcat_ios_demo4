@@ -26,7 +26,7 @@
 		F2815ACC1DC9C3E800D63C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815ACB1DC9C3E800D63C22 /* CoreGraphics.framework */; };
 		F2815ACE1DC9C3EE00D63C22 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815ACD1DC9C3EE00D63C22 /* AVFoundation.framework */; };
 		F2815AD01DC9C3F400D63C22 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815ACF1DC9C3F400D63C22 /* AudioToolbox.framework */; };
-		F2815AD61DC9D14200D63C22 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815AD51DC9D14200D63C22 /* RTCatSDK.framework */; };
+		F2815AE81DCB27FA00D63C22 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815AE71DCB27FA00D63C22 /* RTCatSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,7 @@
 		F2815ACB1DC9C3E800D63C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F2815ACD1DC9C3EE00D63C22 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F2815ACF1DC9C3F400D63C22 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		F2815AD51DC9D14200D63C22 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTCatSDK.framework; sourceTree = "<group>"; };
+		F2815AE71DCB27FA00D63C22 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTCatSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				F2815ACE1DC9C3EE00D63C22 /* AVFoundation.framework in Frameworks */,
 				F2815ACC1DC9C3E800D63C22 /* CoreGraphics.framework in Frameworks */,
 				F2815ACA1DC9C3DE00D63C22 /* CoreMedia.framework in Frameworks */,
-				F2815AD61DC9D14200D63C22 /* RTCatSDK.framework in Frameworks */,
+				F2815AE81DCB27FA00D63C22 /* RTCatSDK.framework in Frameworks */,
 				F2815AC81DC9C3D400D63C22 /* CoreVideo.framework in Frameworks */,
 				F2815AC61DC9C3CB00D63C22 /* GLKit.framework in Frameworks */,
 				F2815AC41DC9C3C400D63C22 /* libicucore.A.tbd in Frameworks */,
@@ -84,7 +84,7 @@
 		F2815A931DC9C36A00D63C22 = {
 			isa = PBXGroup;
 			children = (
-				F2815AD51DC9D14200D63C22 /* RTCatSDK.framework */,
+				F2815AE71DCB27FA00D63C22 /* RTCatSDK.framework */,
 				F2815A9E1DC9C36A00D63C22 /* demo4 */,
 				F2815A9D1DC9C36A00D63C22 /* Products */,
 				F2815AB61DC9C38E00D63C22 /* Frameworks */,
@@ -390,6 +390,7 @@
 				F2815AB51DC9C36A00D63C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
